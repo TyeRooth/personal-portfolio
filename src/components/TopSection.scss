@@ -1,7 +1,7 @@
 .top {
     margin: 0px;
     position: relative;
-    height: 600px;
+    height: 40vw;
     display: flex;
     align-items: center;
 }
@@ -9,7 +9,7 @@
 .top-bg {
     background-color: lightseagreen;
     position: absolute;
-    height: 600px;
+    height: 40vw;
     width: 100%;
     z-index: -1;
     transform: skewY(-8deg);
@@ -18,12 +18,14 @@
 
 .top-info {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    margin: 100px;
+    padding-top: 50px;
 }
 
 .image-container {
-    max-width: 30vw;
+    min-width: 30vw;
+    max-width: 600px;
     position: relative;
     text-align: center;
 }
@@ -45,8 +47,12 @@
 .about-section {
     background-color: white;
     text-align: left;
-    max-width: 40%;
-    padding: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.about-heading {
+    font-size: 4rem;
 }
 
 .about-content {
