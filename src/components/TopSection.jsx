@@ -12,6 +12,7 @@ const TopSection = () => {
                     <h1 className='full-name'>Tye Rooth</h1>
                     <img src={headshot} alt='tye' className='headshot'></img>
                 </div>
+                <h1 className='other-name'>Tye Rooth</h1>
                 <div className='about-section shadow'>
                     <h2 className='about-heading'>About Me</h2>
                     <p className='about-content'>{about}</p>
