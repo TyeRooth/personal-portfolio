@@ -17,10 +17,10 @@ const ContactSection = () => {
                         <Icon path={mdiEmail} size="2em" className="email-logo" />
                         </span>tyerooth@gmail.com</p>
                     <div className="logos-container">
-                        <a href="https://github.com/TyeRooth">
+                        <a href="https://github.com/TyeRooth" target="_blank" rel="noopener noreferrer">
                             <Icon path={mdiGithub} size="5em" />
                         </a>
-                        <a href="https://www.linkedin.com/in/tyerooth">
+                        <a href="https://www.linkedin.com/in/tyerooth" target="_blank" rel="noopener noreferrer">
                             <Icon path={mdiLinkedin} size="5em" /> 
                         </a>
                     </div>

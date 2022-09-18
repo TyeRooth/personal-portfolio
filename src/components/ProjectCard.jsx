@@ -12,10 +12,10 @@ const ProjectCard = (props) => {
             <div className="project-heading">
                 <h3>{name}</h3>
                 <div className="project-links">
-                    <a href={github} className="proj-link">
+                    <a href={github} className="proj-link" target="_blank" rel="noopener noreferrer">
                         <Icon className="icon" path={mdiGithub} size="3em" />
                     </a>
-                    <a href={preview} className="proj-link">
+                    <a href={preview} className="proj-link" target="_blank" rel="noopener noreferrer">
                         <Icon className="icon" path={mdiEyeArrowRight} size="3em" />
                     </a>
                 </div>

@@ -9,14 +9,14 @@
 }
 
 .top-bg {
-    background-color: lightseagreen;
+    background: rgb(0,210,167);
+    background: radial-gradient(circle, rgba(0,210,167,1) 0%, rgba(0,167,127,1) 100%); 
     position: absolute;
     height: 600px;
     width: 100%;
-    z-index: -1;
     transform: skewY(-8deg);
     transform-origin: top left;
-    margin-top: -200px;
+    margin-top: -300px;
     padding-top: 100px;
 }
 
@@ -32,6 +32,7 @@
     position: relative;
     text-align: center;
     float: left;
+    padding-right: 10px;
 }
 
 .headshot {
@@ -43,7 +44,7 @@
     margin: 0px;
     position: absolute;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
     bottom: 5px;
     width: 100%;
 }

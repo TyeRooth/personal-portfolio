@@ -1,5 +1,6 @@
 .contact-section {
-    background-color: lightseagreen;
+    background: rgb(0,210,167);
+    background: radial-gradient(circle, rgba(0,210,167,1) 0%, rgba(0,167,127,1) 100%);
     display:flex;
     padding: 20px 50px;
 }

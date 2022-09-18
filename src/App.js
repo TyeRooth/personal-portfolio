@@ -6,7 +6,7 @@ import ContactSection from './components/ContactSection';
 
 function App() {
   return (
-    <div className='webpages'>
+    <div className='webpage'>
       <TopSection />
       <WorkSection />
       <ContactSection />
