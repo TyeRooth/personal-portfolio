@@ -9,8 +9,6 @@ import sharkMemory from '../assets/shark-memory.png';
 import battleship from '../assets/battleship.png';
 import weatherApp from '../assets/weather-app.png';
 import adminPage from '../assets/admin-page.png';
-import todoList from '../assets/todo-list.png';
-import signupForm from '../assets/signup-form.png';
 
 const TopSection = () => {
     const projectCards = projects.map((project) => {
@@ -33,56 +31,49 @@ const projects = [
         image: whereIsMario,
         github: "https://github.com/TyeRooth/where-is-mario",
         preview: "https://where-s-mario.web.app/",
-        description: "test description"
+        description: "The goal of the game is to find 4 Nintendo characters within an image. " +
+        "This is meant to be like a Where's Waldo game. " + "This project uses Firebase for the back-end."
     },
     {
         name: "Shopping Cart",
         image: shoppingCart,
         github: "https://github.com/TyeRooth/shopping-cart",
-        preview: "https://tyerooth.github.io/shopping-cart/",
-        description: "another test description"
+        preview: "https://tyerooth.github.io/shopping-cart",
+        description: "A fake cryptocurrency store with cart functionality. " +
+        "This project was my introduction to react routing and testing."
     },
     {
         name: "Shark Memory",
         image: sharkMemory,
         github: "https://github.com/TyeRooth/shark-memory",
         preview: "https://tyerooth.github.io/shark-memory/",
-        description: "Shark Memory Game"
+        description: "The goal of this game is to click on a Shark you have not clicked on yet. " +
+        "The positions of the sharks get shuffled each time you click on a new shark."
     },
     {
         name: "Battleship",
         image: battleship,
         github: "https://github.com/TyeRooth/Battleship",
         preview: "https://tyerooth.github.io/Battleship/dist/index.html",
-        description: "Game of Battleship"
+        description: "This player VS computer Battleship game was created with pure javascript, css, and html. " +
+        "The game will guide you through placing your ships and attacking your enemy."
     },
     {
         name: "Weather App",
         image: weatherApp,
         github: "https://github.com/TyeRooth/weather-app",
-        preview: "https://tyerooth.github.io/weather-app/dist/index.html",
-        description: "An app for finding the weather at your location"
+        preview: "https://tyerooth.github.io/weather-app",
+        description: "The classic weather app. " +
+        "Feel free to type in your location and the information on this page will be updated. " +
+        "This is powered by Open Weather API."
     },
     {
         name: "Admin Page",
         image: adminPage,
         github: "https://github.com/TyeRooth/admin-dashboard",
-        preview: "https://github.com/TyeRooth/admin-dashboard",
-        description: "Admin Dashboard for a fake social media and project posting site"
-    },
-    {
-        name: "To Do List",
-        image: todoList,
-        github: "https://github.com/TyeRooth/To_Do_List/tree/main",
-        preview: "https://tyerooth.github.io/To_Do_List/",
-        description: "A To Do list app"
-    },
-    {
-        name: "Sign Up Form",
-        image: signupForm,
-        github: "https://github.com/TyeRooth/Sign-Up-Form",
-        preview: "https://github.com/TyeRooth/Sign-Up-Form",
-        description: "A sign up page form for users to enter their details and set up an account"
+        preview: "https://tyerooth.github.io/admin-dashboard/",
+        description: "Admin Dashboard for a fake social media and project posting site. " +
+        "This is a static page and one of my more visually appealing projects."
     },
 ]
 

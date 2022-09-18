@@ -22,6 +22,11 @@ const TopSection = () => {
     );
 };
 
-const about = "This is the description for myself I am eventually going to add.  I am just adding this text for to get a feel for the look of this about section.  This top section is definitely the hardest part of this project";
+const about = "Hi there, I am an aspiring software developer that is working on " +
+    "leveling up my skills in both development and in life. " +
+    "I am a firm believer that the internet gives almost everybody the opportunity " +
+    "to educate themselves and take ownership over their future. " +
+    "My goal is to live by that belief which means becoming a self-taught developer. " +
+    "On this page, feel free to check out the results of my adventure."
 
 export default TopSection;
