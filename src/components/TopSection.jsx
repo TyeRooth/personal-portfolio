@@ -1,4 +1,4 @@
-import './TopSection.scss';
+import './TopSection.css';
 import '../App.css';
 
 import headshot from '../assets/tye-800w.jpg';

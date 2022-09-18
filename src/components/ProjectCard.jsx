@@ -1,4 +1,4 @@
-import "./ProjectCard.scss";
+import "./ProjectCard.css";
 import "../App.css";
 
 import test from '../assets/testproject.png';
@@ -14,10 +14,10 @@ const ProjectCard = () => {
                 <h3>Project Name</h3>
                 <div className="project-links">
                     <a href="https://github.com/TyeRooth/personal-portfolio" className="proj-link">
-                        <Icon className="icon" path={mdiGithub} size="25" />
+                        <Icon className="icon" path={mdiGithub} size="3em" />
                     </a>
                     <a href="http://localhost:3000/" className="proj-link">
-                        <Icon className="icon" path={mdiEyeArrowRight} size="25" />
+                        <Icon className="icon" path={mdiEyeArrowRight} size="3em" />
                     </a>
                 </div>
             </div>

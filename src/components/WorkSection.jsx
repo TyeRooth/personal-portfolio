@@ -1,4 +1,4 @@
-import "./WorkSection.scss";
+import "./WorkSection.css";
 
 import ProjectCard from "./ProjectCard";
 
