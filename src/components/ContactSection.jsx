@@ -25,7 +25,7 @@ const ContactSection = () => {
                         </a>
                     </div>
                 </div>
-                <div className="image-container">
+                <div className="contact-image-container">
                     <img src={photo} alt="Tye Rooth" />
                 </div>
             </div>

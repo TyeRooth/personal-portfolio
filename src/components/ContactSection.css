@@ -44,7 +44,7 @@ a {
     color: black;
 }
 
-.image-container {
+.contact-image-container {
     width: 40%;
     margin-left: 10%;
 }
@@ -70,7 +70,7 @@ img {
         width: 100%;
     }
 
-    .image-container {
+    .contact-image-container {
         width: 100%;
         margin-top: 20px;
         margin-left: 0px;
