@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.bf154cb2.css",
+    "main.js": "/personal-portfolio/static/js/main.4fd3871a.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/tye-800w.jpg": "/personal-portfolio/static/media/tye-800w.c50190cdaa81684a82e4.jpg",
+    "static/media/where-is-mario.png": "/personal-portfolio/static/media/where-is-mario.e37039c8911c8f0a120f.png",
+    "static/media/shark-memory.png": "/personal-portfolio/static/media/shark-memory.9db6963ecec7ccbb6d52.png",
+    "static/media/battleship.png": "/personal-portfolio/static/media/battleship.aa3c3955c2d477067e33.png",
+    "static/media/admin-page.png": "/personal-portfolio/static/media/admin-page.53d95cf3d6ac9726691d.png",
+    "static/media/weather-app.png": "/personal-portfolio/static/media/weather-app.03fd374bc1372b206902.png",
+    "static/media/shopping-cart.png": "/personal-portfolio/static/media/shopping-cart.3ced8a60457dd043f2dc.png",
+    "static/media/casual-600w.jpg": "/personal-portfolio/static/media/casual-600w.eb545a4b029e607510d2.jpg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.bf154cb2.css.map": "/personal-portfolio/static/css/main.bf154cb2.css.map",
+    "main.4fd3871a.js.map": "/personal-portfolio/static/js/main.4fd3871a.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf154cb2.css",
+    "static/js/main.4fd3871a.js"
+  ]
+}
